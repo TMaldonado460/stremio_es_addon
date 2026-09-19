@@ -1,0 +1,20 @@
+{
+  "name": "stremio_es_addon",
+  "version": "1.0.0",
+  "description": "Addon privado de Stremio: busqueda, catalogos y metadatos en espanol (es-MX > es-ES > en) via TMDB + Trakt. Compatible con Torrentio/MediaFusion (ids IMDb).",
+  "main": "addon.js",
+  "scripts": {
+    "start": "node addon.js",
+    "dev": "nodemon addon.js"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.1",
+    "node-fetch": "^2.7.0",
+    "stremio-addon-sdk": "^1.6.10"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
